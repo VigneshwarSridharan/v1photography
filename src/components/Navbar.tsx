@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 import logo from "@/assets/logo.png";
+import { WHATSAPP_BOOK_URL } from "@/lib/constants";
 
 const navLinks = [
   { label: "Home", href: "#hero" },
@@ -46,7 +47,7 @@ const Navbar = () => {
             </li>
           ))}
           <li>
-            <a href="#cta" className="btn-gradient text-sm py-2 px-6 rounded-md inline-block">
+            <a href={WHATSAPP_BOOK_URL} target="_blank" rel="noopener noreferrer" className="btn-gradient text-sm py-2 px-6 rounded-md inline-block">
               Book Now
             </a>
           </li>
@@ -78,7 +79,7 @@ const Navbar = () => {
               </li>
             ))}
             <li>
-              <a href="#cta" onClick={() => setMobileOpen(false)} className="btn-gradient text-sm py-2 px-6 rounded-md inline-block">
+              <a href={WHATSAPP_BOOK_URL} target="_blank" rel="noopener noreferrer" onClick={() => setMobileOpen(false)} className="btn-gradient text-sm py-2 px-6 rounded-md inline-block">
                 Book Now
               </a>
             </li>

@@ -1,5 +1,6 @@
 import { useState, useEffect, useLayoutEffect, useCallback, useRef, useMemo } from "react";
 import { ChevronLeft, ChevronRight, Camera, Play, Pause } from "lucide-react";
+import { WHATSAPP_BOOK_URL } from "@/lib/constants";
 // Landscape (width > height)
 import heroLandscape1 from "@/assets/hero/landscape/hero-1.jpg";
 import heroLandscape2 from "@/assets/hero/landscape/hero-2.png";
@@ -219,7 +220,9 @@ const HeroSection = () => {
             style={{ animationDelay: "0.45s" }}
           >
             <a
-              href="#contact"
+              href={WHATSAPP_BOOK_URL}
+              target="_blank"
+              rel="noopener noreferrer"
               className="btn-gradient inline-flex items-center gap-2 rounded-lg px-8 py-3.5 text-sm font-semibold uppercase tracking-wider text-white"
             >
               Book a Session

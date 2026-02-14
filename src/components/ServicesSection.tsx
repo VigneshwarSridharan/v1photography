@@ -1,4 +1,5 @@
 import { Clock, Image, CalendarDays } from "lucide-react";
+import { WHATSAPP_BOOK_URL } from "@/lib/constants";
 
 const services = [
   {
@@ -78,7 +79,7 @@ const ServicesSection = () => {
                 <div className="font-heading text-xl font-bold gradient-text">{service.price}</div>
               </div>
 
-              <a href="#cta" className="btn-gradient text-center text-sm py-2.5">
+              <a href={WHATSAPP_BOOK_URL} target="_blank" rel="noopener noreferrer" className="btn-gradient text-center text-sm py-2.5">
                 Book Now
               </a>
             </div>

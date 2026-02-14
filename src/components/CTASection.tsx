@@ -1,3 +1,5 @@
+import { WHATSAPP_BOOK_URL } from "@/lib/constants";
+
 const CTASection = () => {
   return (
     <section id="cta" className="relative py-24 overflow-hidden">
@@ -19,7 +21,7 @@ const CTASection = () => {
             Book your session in Veeranam, Salem. We deliver timeless images and exceptional service for every special moment.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
-            <a href="#contact" className="btn-gradient text-lg">
+            <a href={WHATSAPP_BOOK_URL} target="_blank" rel="noopener noreferrer" className="btn-gradient text-lg">
               Book Now
             </a>
             <a href="#contact" className="btn-outline-blue text-lg">

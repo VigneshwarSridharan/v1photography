@@ -1,10 +1,10 @@
 import { Phone, Mail, MapPin, Clock, Instagram, Facebook, Twitter, Youtube } from "lucide-react";
 
 const contacts = [
-  { icon: Phone, label: "+1 (555) 123-4567" },
-  { icon: Mail, label: "hello@v1photography.com" },
-  { icon: MapPin, label: "123 Cinema Ave, New York, NY 10001" },
-  { icon: Clock, label: "Mon–Sat: 9AM – 7PM" },
+  { icon: Phone, label: "Contact for phone number" },
+  { icon: Mail, label: "Contact for email" },
+  { icon: MapPin, label: "Veeranam, Salem — Near Mottur" },
+  { icon: Clock, label: "Mon–Sat: 9:00 AM – 9:00 PM · Sunday: Closed" },
 ];
 
 const socials = [
@@ -59,7 +59,7 @@ const ContactSection = () => {
               <div className="text-center text-muted-foreground">
                 <MapPin className="w-10 h-10 mx-auto mb-2 text-primary/50" />
                 <p className="font-heading tracking-wider uppercase text-sm">Studio Location</p>
-                <p className="text-xs mt-1">123 Cinema Ave, New York</p>
+                <p className="text-xs mt-1">Veeranam, Salem — Near Mottur</p>
               </div>
             </div>
           </div>

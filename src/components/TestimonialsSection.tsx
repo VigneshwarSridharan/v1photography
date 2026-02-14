@@ -2,16 +2,12 @@ import { Star } from "lucide-react";
 
 const testimonials = [
   {
-    name: "Sarah & Michael",
-    review: "V1 Photography captured our wedding day perfectly. Every photo tells a story, and the cinematic editing blew us away. We couldn't be happier with the results!",
+    name: "Client Review",
+    review: "V1 Photography captured our special moments with creativity and care. We received plenty of creative and candid shots and are very satisfied with the service.",
   },
   {
-    name: "James Rodriguez",
-    review: "The portrait session was incredible. The lighting, the poses, everything was so professional. I've never looked this good in photos before!",
-  },
-  {
-    name: "Priya Sharma",
-    review: "From start to finish, the team was amazing. They captured the energy of our corporate event beautifully. Highly recommend for any occasion!",
+    name: "Client Review",
+    review: "Professional photography in Veeranam, Salem. The team made us feel comfortable and delivered beautiful, memorable images we will cherish for a lifetime.",
   },
 ];
 
@@ -25,13 +21,14 @@ const TestimonialsSection = () => {
           </h2>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-8">
-          {testimonials.map((t) => (
-            <div key={t.name} className="glass-card p-8 animate-on-scroll">
+        <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+          {testimonials.map((t, idx) => (
+            <div key={idx} className="glass-card p-8 animate-on-scroll">
               <div className="flex gap-1 mb-4">
-                {[...Array(5)].map((_, i) => (
+                {[...Array(4)].map((_, i) => (
                   <Star key={i} className="w-5 h-5 fill-primary text-primary" />
                 ))}
+                <Star key="half" className="w-5 h-5 text-primary/40" />
               </div>
               <p className="text-muted-foreground leading-relaxed mb-6 italic">
                 "{t.review}"
@@ -42,6 +39,7 @@ const TestimonialsSection = () => {
             </div>
           ))}
         </div>
+        <p className="text-center text-muted-foreground text-sm mt-6">Rated 4.0 stars based on 2 reviews</p>
       </div>
     </section>
   );

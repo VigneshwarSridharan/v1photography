@@ -2,36 +2,36 @@ import { Clock, Image, CalendarDays } from "lucide-react";
 
 const services = [
   {
-    name: "Wedding Photography",
-    duration: "8 Hours",
-    photos: "400+ Photos",
-    delivery: "3–4 Weeks Delivery",
-    price: "$1,500",
-    description: "Full-day coverage capturing every magical moment of your special day with cinematic precision.",
+    name: "Wedding Shoot",
+    duration: "Full Day",
+    photos: "Plenty of Shots",
+    delivery: "Creative & Candid",
+    price: "Contact for Quote",
+    description: "Full-day coverage capturing every magical moment of your special day. We shoot plenty of creative and candid pictures for timeless memories.",
   },
   {
-    name: "Engagement Shoot",
-    duration: "2 Hours",
-    photos: "60+ Photos",
-    delivery: "1 Week Delivery",
-    price: "$350",
-    description: "Celebrate your love story with a beautifully styled engagement session at your favorite location.",
+    name: "Newborn Shoot",
+    duration: "Session Based",
+    photos: "Curated Gallery",
+    delivery: "Gentle & Safe",
+    price: "Contact for Quote",
+    description: "Beautiful newborn photography in a comfortable studio setting. We capture your little one's first moments with care and creativity.",
   },
   {
-    name: "Portrait Session",
-    duration: "1 Hour",
-    photos: "25 Photos",
-    delivery: "5 Days Delivery",
-    price: "$200",
-    description: "Professional portraits that capture your personality with dramatic lighting and creative composition.",
+    name: "Portrait & Studio",
+    duration: "Flexible",
+    photos: "Stunning Images",
+    delivery: "Personalized",
+    price: "Contact for Quote",
+    description: "Professional portrait and studio photography. We create beautiful, memorable images tailored to your style.",
   },
   {
     name: "Event Coverage",
-    duration: "4 Hours",
-    photos: "150+ Photos",
-    delivery: "10 Days Delivery",
-    price: "$600",
-    description: "Dynamic event photography for corporate gatherings, parties, and celebrations of all kinds.",
+    duration: "As Required",
+    photos: "Comprehensive",
+    delivery: "Reliable Service",
+    price: "Contact for Quote",
+    description: "Corporate events, parties, and celebrations. V1 Photography delivers comprehensive photography solutions with a commitment to excellence.",
   },
 ];
 
@@ -44,7 +44,7 @@ const ServicesSection = () => {
             Our Photography <span className="gradient-text">Services</span>
           </h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            Premium photography packages tailored to capture your most important moments.
+            Wedding shoots, newborn shoots, and more — tailored to capture your special moments in Veeranam, Salem.
           </p>
         </div>
 
@@ -74,8 +74,8 @@ const ServicesSection = () => {
               </div>
 
               <div className="mb-5">
-                <span className="text-sm text-muted-foreground">Starting from</span>
-                <div className="font-heading text-3xl font-bold gradient-text">{service.price}</div>
+                <span className="text-sm text-muted-foreground">Pricing</span>
+                <div className="font-heading text-xl font-bold gradient-text">{service.price}</div>
               </div>
 
               <a href="#cta" className="btn-gradient text-center text-sm py-2.5">

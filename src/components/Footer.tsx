@@ -1,7 +1,7 @@
 import { Instagram, Facebook, Twitter, Youtube } from "lucide-react";
 import logo from "@/assets/logo.png";
 
-const links = ["Home", "About", "Services", "Gallery", "Testimonials", "Contact"];
+const links = ["Home", "About", "Services", "Gallery", "Testimonials", "FAQ", "Contact"];
 const socials = [Instagram, Facebook, Twitter, Youtube];
 
 const Footer = () => {
@@ -41,7 +41,7 @@ const Footer = () => {
 
         <div className="text-center mt-8 pt-8 border-t border-border">
           <p className="text-sm text-muted-foreground">
-            © 2026 V1 Photography – Real Life, Real Moments
+            © 2026 V1 Photography – Veeranam, Salem. Creative & Candid Photography Since 2006.
           </p>
         </div>
       </div>

@@ -27,7 +27,7 @@ const GallerySection = () => {
             Recent & <span className="gradient-text">Best Works</span>
           </h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            A curated selection of our finest cinematic photography.
+            A curated selection of our creative and candid shots — weddings, portraits, and more.
           </p>
         </div>
 

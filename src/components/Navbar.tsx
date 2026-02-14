@@ -8,6 +8,7 @@ const navLinks = [
   { label: "Services", href: "#services" },
   { label: "Gallery", href: "#gallery" },
   { label: "Testimonials", href: "#testimonials" },
+  { label: "FAQ", href: "#faq" },
   { label: "Contact", href: "#contact" },
 ];
 
@@ -29,7 +30,7 @@ const Navbar = () => {
     >
       <div className="container mx-auto flex items-center justify-between py-4 px-4">
         <a href="#hero" className="flex items-center gap-2">
-          <img src={logo} alt="V Photography" className="h-10" />
+          <img src={logo} alt="V1 Photography" className="h-10" />
         </a>
 
         {/* Desktop */}

@@ -16,7 +16,7 @@ const CTASection = () => {
             Let's Capture <span className="gradient-text">Your Story</span>
           </h2>
           <p className="text-muted-foreground text-lg md:text-xl max-w-2xl mx-auto mb-10">
-            Book your session today and turn real moments into timeless memories.
+            Book your session in Veeranam, Salem. We deliver timeless images and exceptional service for every special moment.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <a href="#contact" className="btn-gradient text-lg">

@@ -2,9 +2,9 @@ import { Camera, Users, Award, Aperture } from "lucide-react";
 import photographerImg from "@/assets/photographer.jpg";
 
 const stats = [
-  { icon: Camera, value: "8+", label: "Years Experience" },
-  { icon: Users, value: "500+", label: "Happy Clients" },
-  { icon: Award, value: "50+", label: "Awards Won" },
+  { icon: Camera, value: "Since 2006", label: "Years in Business" },
+  { icon: Users, value: "4.0", label: "Stars" },
+  { icon: Award, value: "Creative", label: "& Candid Shots" },
   { icon: Aperture, value: "10K+", label: "Photos Delivered" },
 ];
 
@@ -33,10 +33,10 @@ const AboutSection = () => {
               About <span className="gradient-text">V1 Photography</span>
             </h2>
             <p className="text-muted-foreground text-lg leading-relaxed mb-4">
-              We are a passionate creative photography studio focused on storytelling, emotional depth, and premium cinematic editing. Every frame we capture tells a unique story.
+              V1 Photography is led by Mr. Vijay and began in 2006. His passion for photography led to Jovika Photos Videography — offering the best creative & dedicated photography with a strong focus on customer satisfaction.
             </p>
             <p className="text-muted-foreground text-lg leading-relaxed mb-8">
-              With over 8 years of experience, 500+ satisfied clients, and state-of-the-art modern equipment, we deliver stunning visuals that preserve your most precious moments forever.
+              Located in Veeranam, Salem (near Mottur), we specialize in Photo Studios photography. Our experienced team is passionate about creating beautiful, memorable images for weddings, newborn shoots, and every special moment in between.
             </p>
 
             {/* Stats */}

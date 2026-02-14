@@ -30,39 +30,39 @@ const PORTRAIT_SRCS = [
 
 const SLIDE_META = [
   {
-    label: "Vignesh & Rubiya Wedding",
+    label: "Wedding Shoot",
     category: "Wedding",
-    tagline: "Where Love Tells Its Own Story",
+    tagline: "Creative & Candid Photography",
     description:
-      "Capturing authentic emotions, timeless weddings, and unforgettable events with cinematic precision.",
+      "V1 Photography in Veeranam, Salem — capturing your special moments with precision and creativity. We shoot plenty of pictures full of creative and candid shots.",
   },
   {
-    label: "Romantic Engagement Session",
-    category: "Engagement",
-    tagline: "Two Hearts, One Frame",
+    label: "Newborn Shoot",
+    category: "Newborn",
+    tagline: "Your Moments, Timelessly Captured",
     description:
-      "Romantic engagement sessions in breathtaking locations, crafted into cinematic visual stories.",
+      "Jovika Photos Videography offers the best creative & dedicated photography with a commitment to customer satisfaction.",
   },
   {
-    label: "Garden Romance",
-    category: "Wedding",
+    label: "Wedding & Events",
+    category: "Photo Studios",
     tagline: "Every Moment Is A Masterpiece",
     description:
-      "From the first look to the last dance, we preserve every magical second of your celebration.",
+      "From weddings to corporate events, we deliver comprehensive photography solutions and stunning images for every occasion.",
   },
   {
-    label: "Forest Promise",
-    category: "Engagement",
-    tagline: "Love Among Nature",
-    description:
-      "Intimate moments captured in serene forest settings, telling timeless love stories.",
-  },
-  {
-    label: "Neon Dreams",
+    label: "Portrait & Studio",
     category: "Portrait",
-    tagline: "Your Story, Beautifully Told",
+    tagline: "Beautiful & Memorable Images",
     description:
-      "Bold, artistic portraits that reveal personality and create lasting impressions.",
+      "A trusted name in Photo Studios photography. We create beautiful, memorable images you will cherish for a lifetime.",
+  },
+  {
+    label: "Veeranam, Salem",
+    category: "Since 2006",
+    tagline: "Led by Mr. Vijay",
+    description:
+      "Professional photography in Veeranam, Salem — convenient location near Mottur. Mon–Sat 9AM–9PM. Book your session today.",
   },
 ];
 
